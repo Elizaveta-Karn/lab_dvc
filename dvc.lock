@@ -1,0 +1,10 @@
+schema: '2.0'
+stages:
+  train_file_new:
+    cmd: python train_file_new.py --img 640 --batch 16 --epochs 10 --data VisDrone.yaml
+      --weights yolov5n.pt
+    outs:
+    - path: new_timing_info.json
+      hash: md5
+      md5: 8f66a8e1140f6d5f497e169bc86ff5c8
+      size: 202
