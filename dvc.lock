@@ -8,3 +8,10 @@ stages:
       hash: md5
       md5: 8f66a8e1140f6d5f497e169bc86ff5c8
       size: 202
+  detect:
+    cmd: python detect_new.py --weights  yolov5n.onnx --source /content/drive/MyDrive/project_lab/images
+    outs:
+    - path: detect_info.json
+      hash: md5
+      md5: 9677d62791ac56eadb1fc419dbf04916
+      size: 111
