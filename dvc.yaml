@@ -4,3 +4,7 @@ stages:
       --weights yolov5n.pt
     metrics:
     - new_timing_info.json
+  detect:
+    cmd: python detect_new.py --weights  yolov5n.onnx --source /content/drive/MyDrive/project_lab/images
+    metrics:
+    - detect_info.json
