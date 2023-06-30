@@ -13,5 +13,5 @@ stages:
     outs:
     - path: detect_info.json
       hash: md5
-      md5: 9677d62791ac56eadb1fc419dbf04916
-      size: 111
+      md5: 20faaa9825560af54f64511b36b9b95b
+      size: 112
